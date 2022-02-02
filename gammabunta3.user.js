@@ -363,7 +363,8 @@ function makePostListAG(data) {
   // Ajouter les classes titre, nom commandant, nombre de réponses, dernier post
   $('.postelement:nth-child(1)').addClass('postelement-title');
   $('.postelement:nth-child(2)').addClass('postelement-comname');
-  $('.postelement:nth-child(3)').addClass('postelement-lastpost');
+  $('.postelement:nth-child(3)').addClass('postelement-replies');
+  $('.postelement:nth-child(4)').addClass('postelement-lastpost');
   
   // Marquer les nouveaux posts en ajoutant une classe .new-post
   $('.postelement-title').has('img').each(function(){
