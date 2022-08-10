@@ -1,0 +1,27 @@
+.subject {
+    border-top: solid 1px white;
+    background-color: rgba(15, 15, 15, 0.7);
+}
+
+.subject:hover {
+    border-top-width: 2px;
+}
+
+.subject-title > a {
+    font-size: 16px;
+}
+
+.author {
+    margin-left: 10px;
+}
+
+.author .avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.author img {
+    height: 30px;
+    width: auto;
+}
